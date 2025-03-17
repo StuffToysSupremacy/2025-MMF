@@ -121,7 +121,7 @@ while True:
     if pay_method == "cash":
         surcharge = 0
 
-    # if paying by credit, calculate surcharge
+    # if paying by credit, calculate surcharge to the list
     else:
         surcharge = ticket_price * CREDIT_SURCHARGE
 
